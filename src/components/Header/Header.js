@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
-    <div className="m-2">
+    <div className=" bg-info py-2 rounded">
       <Link className="m-2 btn btn-primary" to="/restaurant">
         Restaurant
       </Link>
