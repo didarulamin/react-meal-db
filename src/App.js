@@ -14,6 +14,9 @@ function App() {
           <Route path="/restaurant">
             <Meals></Meals>
           </Route>
+          <Route exact path="/">
+            <Meals></Meals>
+          </Route>
           <Route path="/meal/:id">
             <Meal></Meal>
           </Route>
